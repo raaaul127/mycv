@@ -20287,7 +20287,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
   border-radius: 4px;
 }
 .card-blog .card-category .category {
@@ -20334,7 +20334,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 .service-box .service-ico {
@@ -20423,7 +20423,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
   position: absolute;
   top: 0;
   left: 0px;
@@ -20483,7 +20483,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
   margin: 0 auto;
 }
 
@@ -20499,7 +20499,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
   width: 100px;
   bottom: -12px;
 }
@@ -20536,7 +20536,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -20626,7 +20626,7 @@ a:hover {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: #2A3132;
   padding: 12px 0;
 }
 
@@ -21023,7 +21023,7 @@ a:hover {
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
 }
 
 /*--------------------------------------------------------------
@@ -21132,9 +21132,9 @@ a:hover {
 }
 
 .social-icon {
-  border: 1px solid #04b962;
+  border: 1px solid #2A3132;
   border-radius: 8px 2px;
-  color: #04b962;
+  color: #2A3132;
   display: block;
   height: 32px;
   margin-right: 5px;
@@ -21274,9 +21274,9 @@ a:hover {
   background-color: #bc2a8d;
 }
 
-.social-icon-colored.social-icon-youtube,
-.social-icon-youtube:hover {
-  background-color: #bb0000;
+.social-icon-colored.social-icon-instagram,
+.social-icon-instagram:hover {
+  background-color: #E1306C;
 }
 
 .social-icon-colored.social-icon-skype,
@@ -21324,7 +21324,7 @@ a:hover {
   transition: all 500ms ease;
 }
 .socials .ico-circle:hover {
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -21337,7 +21337,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #763626;
 }
 footer .copyright {
   margin-bottom: 0.3rem;
@@ -21362,7 +21362,7 @@ footer .credits a {
 }
 .widget-tags ul li {
   display: inline-block;
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
   padding: 0.2rem 0.6rem;
   margin-bottom: 0.5rem;
   border-radius: 15px;
@@ -21391,7 +21391,7 @@ footer .credits a {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
   top: 20px;
 }
 .widget-sidebar .sidebar-title {
@@ -21522,7 +21522,7 @@ footer .credits a {
 
 .button-a {
   text-decoration: none;
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
   color: #fff;
   border-color: #cde1f8;
 }
@@ -21565,7 +21565,7 @@ footer .credits a {
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #f5ca3d;
+  background-color: rgb(140.25, 237.15, 237.15);
 }
 
 .counter-box {
@@ -21640,7 +21640,7 @@ footer .credits a {
   border: 1px solid #0078ff;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -21814,7 +21814,7 @@ footer .credits a {
   transition: all 0.5s ease-in-out;
 }
 .sidebar-search .btn-search {
-  background-color: #f5ca3d;
+  background-color: #90AFC5;
   border-color: #f5ca3d;
   border-radius: 0;
   padding-left: 20px;
