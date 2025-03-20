@@ -211,7 +211,7 @@ a {
   &:hover {
     text-decoration: none;
     box-shadow: 0 0 0 3px #cde1f8;
-    background-color: $background-color_6;
+    background-color: linear-gradient(to right, #1e1e1e, #47484d, #737782, #a0aabc, #cde1f8);
     color: $color_5;
     transition: all 500ms ease;
   }

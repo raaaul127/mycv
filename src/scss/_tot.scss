@@ -433,16 +433,17 @@
     }
   }
   button[type="submit"] {
-    background: #0078ff;
+    background: radial-gradient(circle, #763626, #692e32, #572a38, #422837, #2f2530, #36313b, #3d3c44, #47484d, #676b74, #89909e, #abb8ca, #cde1f8);
     border: 0;
     padding: 10px 24px;
     color: $color_5;
     transition: 0.4s;
     &:hover {
-      background: #3393ff;
+      background: radial-gradient(circle, #1e1e1e, #29232c, #3b2735, #4f2938, #632c34, #753a44, #884855, #9b5767, #aa7897, #b29bc0, #bbbfe0, #cde1f8);
     }
   }
 }
+
 .post-box {
   padding: 2rem;
   background-color: $background-color_3;

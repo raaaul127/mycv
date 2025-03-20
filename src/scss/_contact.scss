@@ -70,13 +70,13 @@
       }
     }
     button[type="submit"] {
-      background: #0078ff;
+      background:linear-gradient(to right, #1e1e1e, #47484d, #737782, #a0aabc, #cde1f8);
       border: 0;
       padding: 10px 24px;
       color: $color_1;
       transition: 0.4s;
       &:hover {
-        background: #3393ff;
+        background: linear-gradient(to left, #1e1e1e, #47484d, #737782, #a0aabc, #cde1f8);
       }
     }
   }
