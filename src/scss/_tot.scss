@@ -127,7 +127,7 @@
   margin-bottom: 0;
   line-height: 2;
   span {
-    color: $color_3;
+    color: #0ba3d4;
     margin-right: 10px;
   }
 }
@@ -433,13 +433,13 @@
     }
   }
   button[type="submit"] {
-    background: radial-gradient(circle, #763626, #692e32, #572a38, #422837, #2f2530, #36313b, #3d3c44, #47484d, #676b74, #89909e, #abb8ca, #cde1f8);
+    background: linear-gradient(to right top, #3596b5, #65a8c7, #8bbad9, #adcde9, #cde1f8);
     border: 0;
     padding: 10px 24px;
     color: $color_5;
     transition: 0.4s;
     &:hover {
-      background: radial-gradient(circle, #1e1e1e, #29232c, #3b2735, #4f2938, #632c34, #753a44, #884855, #9b5767, #aa7897, #b29bc0, #bbbfe0, #cde1f8);
+      background:  linear-gradient(to right top, #26657a, #65a8c7, #8bbad9, #adcde9, #cde1f8);
     }
   }
 }

@@ -20382,15 +20382,15 @@ a:hover {
   user-select: none;
   font-size: 1rem;
   border: 1px solid transparent;
-  transition: all 500ms ease;
+  transition: all 250ms;
   cursor: pointer;
 }
 .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 3px #cde1f8;
-  background-color: linear-gradient(to right, #1e1e1e, #47484d, #737782, #a0aabc, #cde1f8);
+  background-color: linear-gradient(to right top, #3596b5, #65a8c7, #8bbad9, #adcde9, #cde1f8);
   color: #fff;
-  transition: all 500ms ease;
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: rgba(29, 16, 16, 0.35) 0 -25px 18px -14px inset, rgba(211, 221, 215, 0.25) 0 1px 2px, rgba(39, 36, 36, 0.25) 0 2px 4px, rgba(255, 255, 255, 0.25) 0 4px 8px, rgba(255, 255, 255, 0.25) 0 8px 16px, rgba(0, 0, 0, 0.25) 0 16px 32px;
 }
 .button:focus {
   outline: 0;
@@ -20514,8 +20514,11 @@ a:hover {
   position: relative;
   background-color: #fff;
   margin-bottom: 3rem;
+  border-radius: 50px;
   z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 9px 30px -1px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 10px 9px 30px -1px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 10px 9px 30px -1px rgba(0, 0, 0, 0.48);
 }
 
 /*------/ Prelaoder /------*/
@@ -20557,7 +20560,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #000;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -20569,7 +20572,7 @@ a:hover {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #298eff;
+  background: #34383a;
   color: #fff;
 }
 
@@ -21098,14 +21101,14 @@ a:hover {
   border-color: #cde1f8;
 }
 .php-email-form button[type=submit] {
-  background: linear-gradient(to right, #1e1e1e, #47484d, #737782, #a0aabc, #cde1f8);
+  background: linear-gradient(to right top, #3596b5, #65a8c7, #8bbad9, #adcde9, #cde1f8);
   border: 0;
   padding: 10px 24px;
   color: #4e4e4e;
   transition: 0.4s;
 }
 .php-email-form button[type=submit]:hover {
-  background: linear-gradient(to left, #1e1e1e, #47484d, #737782, #a0aabc, #cde1f8);
+  background: linear-gradient(to right top, #3596b5, #65a8c7, #8bbad9, #adcde9, #cde1f8);
 }
 
 @media (min-width: 767px) {
@@ -21479,7 +21482,7 @@ footer .credits a {
   line-height: 2;
 }
 .list-ico span {
-  color: #f5ca3d;
+  color: #0ba3d4;
   margin-right: 10px;
 }
 
@@ -21786,14 +21789,14 @@ footer .credits a {
   border-color: #f5ca3d;
 }
 .php-email-form button[type=submit] {
-  background: radial-gradient(circle, #763626, #692e32, #572a38, #422837, #2f2530, #36313b, #3d3c44, #47484d, #676b74, #89909e, #abb8ca, #cde1f8);
+  background: linear-gradient(to right top, #3596b5, #65a8c7, #8bbad9, #adcde9, #cde1f8);
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
 }
 .php-email-form button[type=submit]:hover {
-  background: radial-gradient(circle, #1e1e1e, #29232c, #3b2735, #4f2938, #632c34, #753a44, #884855, #9b5767, #aa7897, #b29bc0, #bbbfe0, #cde1f8);
+  background: linear-gradient(to right top, #26657a, #65a8c7, #8bbad9, #adcde9, #cde1f8);
 }
 
 .post-box {
