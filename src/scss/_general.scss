@@ -4,8 +4,9 @@
 	2. Define theme colour scheme
 |----------------------------------------------------------------------------
 */
-
-$font-family_1: fontAwesome;
+$font-family: 'PT Sans', sans-serif;
+$font-family_1: "Roboto", Helvetica, Arial, sans-serif;
+$font-family_2: "Montserrat", sans-serif;
 $border-color_1: rgba(255, 255, 255, 0.3);
 $border-color_2: #90AFC5;
 
@@ -30,6 +31,22 @@ $border-color_1: #cde1f8;
 $border-color_2: #f5ca3d;
 $border-top-color_1: #eee;
 
+$red: #c0392b;
+$blue: #075997;
+$purple: #9b59b6;
+$orange: #ffa500;
+$green: $color_5;
+$reactColor: rgb(20 158 202/0.7);
+$vueColor: #42b883;
+$angularColor: #f9174d;
+$animation-delay: 0.7s;
+
+$background-color: #1a1a1a;
+$progressbar-title-color: #fff;
+
+$animation-delay: .7s;
+
+$li-padding: 5px;
 $btn-color: #54ba4e;
 $btn-color-2: #479fc8;
 $text-color: #434343;
