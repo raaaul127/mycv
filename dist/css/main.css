@@ -20390,7 +20390,7 @@ a:hover {
   user-select: none;
   font-size: 1rem;
   border: 1px solid transparent;
-  transition: all 250ms;
+  transition: ease-in all 250ms;
   cursor: pointer;
 }
 .button:hover {
@@ -20431,14 +20431,12 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #90AFC5;
   position: absolute;
   top: 0;
   left: 0px;
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.7;
 }
 
 .display-table {
@@ -21034,11 +21032,10 @@ a:hover {
   background: #1a1a1a;
   width: 100%;
   height: 100%;
-  font-family: "PT Sans", sans-serif;
+  font-family: #FF9A00;
 }
 .skill-mf .skills-bar-container {
   position: relative;
-  min-width: 300px;
   top: 50%;
   list-style: none;
 }
@@ -21160,7 +21157,7 @@ a:hover {
   text-align: center;
 }
 #resume .resume-header h2 {
-  color: #42b883;
+  color: #FCBD34;
 }
 #resume .timeline-wrap {
   position: relative;
@@ -21226,7 +21223,7 @@ a:hover {
   display: block;
   height: 3px;
   width: 50px;
-  background: #42b883;
+  background: #FCBD34;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -22072,7 +22069,7 @@ footer .credits a {
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
   border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
+  animation: 1s linear infinite;
 }
 .php-email-form input {
   border-radius: 0;
@@ -22100,8 +22097,10 @@ footer .credits a {
   color: #fff;
   transition: 0.4s;
 }
-.php-email-form button[type=submit]:hover {
-  background: linear-gradient(to right top, #26657a, #65a8c7, #8bbad9, #adcde9, #cde1f8);
+.php-email-form button[type=submit]:hover, .php-email-form button[type=submit]:focus, .php-email-form button[type=submit]:active {
+  background-color: linear-gradient(to right top, #26657a, #65a8c7, #8bbad9, #adcde9, #cde1f8);
+  outline: none !important;
+  border: none !important;
 }
 
 .post-box {

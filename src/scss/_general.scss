@@ -4,7 +4,7 @@
 	2. Define theme colour scheme
 |----------------------------------------------------------------------------
 */
-$font-family: 'PT Sans', sans-serif;
+$font-family: #FF9A00;
 $font-family_1: "Roboto", Helvetica, Arial, sans-serif;
 $font-family_2: "Montserrat", sans-serif;
 $border-color_1: rgba(255, 255, 255, 0.3);
@@ -37,7 +37,7 @@ $purple: #9b59b6;
 $orange: #ffa500;
 $green: $color_5;
 $reactColor: rgb(20 158 202/0.7);
-$vueColor: #42b883;
+$vueColor: #FCBD34;
 $angularColor: #f9174d;
 $animation-delay: 0.7s;
 
@@ -242,7 +242,7 @@ a {
   user-select: none;
   font-size: 1rem;
   border: 1px solid transparent;
-  transition: all 250ms;
+  transition: ease-in all 250ms;
   cursor: pointer;
   &:focus {
     outline: 0;
@@ -271,14 +271,14 @@ a {
   background-position: center center;
 }
 .overlay-mf {
-  background-color: $background-color_2;
+  // background-color: $background-color_2;
   position: absolute;
   top: 0;
   left: 0px;
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.7;
+  // opacity: 0.7;
 }
 .display-table {
   width: 100%;

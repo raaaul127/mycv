@@ -410,7 +410,7 @@
       margin: 0 10px -6px 0;
       border: 3px solid #18d26e;
       border-top-color: $border-top-color_1;
-      animation: animate-loading 1s linear infinite;
+      animation: 1s linear infinite;
     }
   }
   input {
@@ -438,8 +438,12 @@
     padding: 10px 24px;
     color: $color_5;
     transition: 0.4s;
-    &:hover {
-      background:  linear-gradient(to right top, #26657a, #65a8c7, #8bbad9, #adcde9, #cde1f8);
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: linear-gradient(to right top, #26657a, #65a8c7, #8bbad9, #adcde9, #cde1f8);
+      outline: none !important;
+      border: none !important;
     }
   }
 }

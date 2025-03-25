@@ -179,6 +179,53 @@ import GLightbox from 'glightbox';
     });
 
     /**
+     * Validate Form 
+     */
+
+    // (function () {
+    //     'use strict';
+    //     window.addEventListener('load', function () {
+    //       var form = document.getElementById('form');
+    //       form.addEventListener('submit', function (event) {
+    //         var isValid = true;
+    
+    //         // Verifică fiecare câmp pentru validitate
+    //         var inputs = form.querySelectorAll('input, textarea');
+    //         inputs.forEach(function (input) {
+    //           if (!input.checkValidity()) {
+    //             input.classList.add('is-invalid');
+    //             input.classList.remove('is-valid');
+    //             isValid = false;
+    //           } else {
+    //             input.classList.add('is-valid');
+    //             input.classList.remove('is-invalid');
+    //           }
+    //         });
+    
+    //         if (!isValid) {
+    //           event.preventDefault(); // Previi trimiterea formularului
+    //         }
+    //       }, false);
+    //     }, false);
+    //   })();
+
+    (function () {
+        'use strict'
+        const forms = document.querySelectorAll('.php-email-form')
+        Array.from(forms)
+            .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+    
+                    form.classList.add('was-validated')
+                }, false)
+            })
+    })()
+
+    /**
      * Testimonials slider
      */
     // new Swiper('.testimonials-slider', {
