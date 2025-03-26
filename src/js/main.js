@@ -1,3 +1,6 @@
+// import $ from 'jquery';
+// // create global $ and jQuery variables
+// global.$ = global.jQuery = $;
 import GLightbox from 'glightbox';
 
 (function () {
