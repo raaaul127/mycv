@@ -209,6 +209,9 @@ import GLightbox from 'glightbox';
     //     }, false);
     //   })();
 
+    /**
+     * Validate Contact
+     */
     (function () {
         'use strict'
         const forms = document.querySelectorAll('.php-email-form')
