@@ -252,7 +252,7 @@
     color: $color_1;
     font-size: 0.8rem;
     .w-ctegory {
-      color: $color_3;
+      color: $color_1;
     }
   }
   .w-like {
@@ -433,7 +433,7 @@
     }
   }
   button[type="submit"] {
-    background: linear-gradient(to right top, #3596b5, #65a8c7, #8bbad9, #adcde9, #cde1f8);
+    background: #FAED26;
     border: 0;
     padding: 10px 24px;
     color: $color_5;

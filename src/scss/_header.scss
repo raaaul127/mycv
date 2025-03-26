@@ -23,8 +23,13 @@
   }
 }
 #header.header-scrolled {
-  background: #2A3132;
+  // background-color: #2A3132;
   padding: 12px 0;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background-color: #2a31325d;
+  transition:  0.3s cubic-bezier(.42, .00, .58, 1.00);
+
 }
 .navbar {
   padding: 0;

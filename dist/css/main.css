@@ -20635,8 +20635,11 @@ a:hover {
 }
 
 #header.header-scrolled {
-  background: #2A3132;
   padding: 12px 0;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background-color: rgba(42, 49, 50, 0.3647058824);
+  transition: 0.3s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .navbar {
@@ -20936,6 +20939,9 @@ a:hover {
   font-weight: 600;
   font-size: 3rem;
 }
+.hero .hero-title span {
+  color: #f5ca3d;
+}
 .hero .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
@@ -21094,19 +21100,19 @@ a:hover {
   animation-delay: 3.5s;
 }
 .skill-mf .progressred {
-  background-color: #c0392b;
+  background-color: #EC6231;
 }
 .skill-mf .progressblue {
-  background-color: #075997;
+  background-color: #264de4;
 }
 .skill-mf .progresspurple {
-  background-color: #9b59b6;
+  background-color: #F0DB4F;
 }
 .skill-mf .progressorange {
-  background-color: #ffa500;
+  background-color: #3C873A;
 }
 .skill-mf .progressgreen {
-  background-color: #fff;
+  background-color: #1C78C0;
 }
 @keyframes progress-html {
   0% {
@@ -21342,6 +21348,12 @@ a:hover {
     transform: rotate(360deg);
   }
 }
+#contact .box-shadow-full {
+  box-shadow: 10px 9px 30px -1px rgba(252, 189, 52, 0.48);
+  -webkit-box-shadow: 10px 9px 30px -1px rgba(252, 189, 52, 0.48);
+  -moz-box-shadow: 10px 9px 30px -1px rgba(252, 189, 52, 0.48);
+}
+
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
@@ -21642,7 +21654,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #763626;
+  background-color: #2c2c2c;
 }
 footer .copyright {
   margin-bottom: 0.3rem;
@@ -21909,7 +21921,7 @@ footer .credits a {
   font-size: 0.8rem;
 }
 .work-content .w-more .w-ctegory {
-  color: #f5ca3d;
+  color: #4e4e4e;
 }
 .work-content .w-like {
   font-size: 2.5rem;
@@ -22091,7 +22103,7 @@ footer .credits a {
   border-color: #f5ca3d;
 }
 .php-email-form button[type=submit] {
-  background: linear-gradient(to right top, #3596b5, #65a8c7, #8bbad9, #adcde9, #cde1f8);
+  background: #FAED26;
   border: 0;
   padding: 10px 24px;
   color: #fff;
