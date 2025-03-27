@@ -1,0 +1,10 @@
+{
+    "title": "Aplicatia de la cursul: WebSite Building Bootstrap + Webpack + jQuery",
+    "meniu.home": "Acasa",
+    "meniu.about": "Despre noi",
+    "meniu.cv": "CV-ul meu",
+    "meniu.portfolio": "Portofoliu",
+    "meniu.github": "Proiecte GitHub",
+    "meniu.contact": "Contact",
+    "footer_text": "© 2023 Your Company. All rights reserved."
+}

@@ -20459,10 +20459,6 @@ a:hover {
   padding-top: 4rem;
 }
 
-.sect-mt4 {
-  margin-top: 4rem;
-}
-
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
@@ -20603,7 +20599,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #f5ca3d;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -21337,6 +21333,52 @@ a:hover {
     padding-left: 5.5rem;
   }
 }
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.service-box {
+  background-color: var(--background-color_1);
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.service-box:hover .ico-circle {
+  transition: all 500ms ease;
+  color: var(--color_1);
+  background-color: var(--background-color_2);
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+.service-box .service-ico {
+  margin-bottom: 1rem;
+  color: var(--color_2);
+}
+.service-box .ico-circle {
+  transition: all 500ms ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-box .ico-circle i {
+  line-height: 0;
+  font-size: 40px;
+}
+.service-box .s-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.4rem 0;
+}
+.service-box .s-description {
+  color: #FCBD34;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/

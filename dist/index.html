@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myCV</title>
-<link rel="icon" href="favicon.ico?8da7122e07a74449f0b4"><link href="css/main.css?8da7122e07a74449f0b4" rel="stylesheet"></head>
+<link rel="icon" href="favicon.ico?0cc89747eb19549cac80"><link href="css/main.css?0cc89747eb19549cac80" rel="stylesheet"></head>
 
 <body>
     <!-- ======= Header ======= -->
@@ -21,11 +21,11 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">About</a></li>
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <li><a class="nav-link scrollto " href="#work">Work</a></li>
-                <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
+                <li><a class="nav-link scrollto active" href="#hero" data-tr="meniu.home">Home</a></li>
+                <li><a class="nav-link scrollto" href="#about" data-tr="meniu.about">About</a></li>
+                <li><a class="nav-link scrollto" href="#resume" data-tr="meniu.cv">Work</a></li>
+                <li><a class="nav-link scrollto " href="#portfolio" data-tr="meniu.portfolio">Portofolio</a></li>
+                <li><a class="nav-link scrollto " href="#repo" data-tr="meniu.github">GitHub</a></li>
                 <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="#">Drop Down 1</a></li>
@@ -44,7 +44,7 @@
                         <li><a href="#">Drop Down 4</a></li>
                     </ul>
                 </li> -->
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                <li><a class="nav-link scrollto" href="#contact" data-tr="meniu.contact">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -60,7 +60,7 @@
         <div class="table-cell">
             <div class="container">
                 <p class="display-6 color-d"><i class="bi bi-caret-down"></i></p>
-                <h1 class="hero-title mb-4">
+                <h1 class="hero-title mb-4" data-tr="myname">
                     I am <span><strong>Raul</strong></span>
                 </h1>
                 <p class="hero-subtitle">
@@ -100,7 +100,7 @@
 
                 </ul>
                 <p class="pt-3 intro-content ">
-                    <a class="button stroke smoothscroll" href="#about" title="">More About Me <i
+                    <a class="button stroke smoothscroll" href="#about" title="" data-tr="btn.about">More About Me <i
                             class="bi bi-arrow-bar-down"></i></a>
 
                 </p>
@@ -612,7 +612,25 @@
         </div>
     </div>
 </section><!-- End Portfolio Section -->
-                
+                <!-- ======= GitHubAPI Section ======= -->
+<section id="repo" class="services-mf pt-5 pb-2 route grey-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title-box text-center">
+                    <h3 class="title-a">
+                        My <strong>GitHub</strong>
+                    </h3>
+                    <p class="subtitle-a">
+                        The latest GitHub Repo
+                    </p>
+                    <div class="line-mf"></div>
+                </div>
+            </div>
+        </div>
+        <div id="dataview" class="row"></div>
+    </div>
+</section><!-- End GitHubAPI Section -->
                 <!-- ======= Contact Section ======= -->
 <section
   id="contact"
@@ -783,6 +801,6 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
 
-<script defer src="js/main.bundle.js?8da7122e07a74449f0b4"></script></body>
+<script defer src="js/main.bundle.js?0cc89747eb19549cac80"></script></body>
 
 </html>
