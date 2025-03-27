@@ -17,9 +17,10 @@ function updateContent(langData) {
         const key = element.getAttribute('data-tr');
         element.textContent = langData[key];
     });
-    document.querySelectorAll('[data-typed-tr]').forEach(element => {
-        const key = element.getAttribute('data-typed-tr');
+    document.querySelectorAll('[data-attr-tr]').forEach(element => {
+        const key = element.getAttribute('data-attr-tr');
         element.setAttribute('data-typed-items', langData[key]);
+        element.setAttribute('placeholder', langData[key]);
     });
 
 

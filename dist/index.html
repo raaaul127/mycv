@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myCV</title>
-<link rel="icon" href="favicon.ico?0cc89747eb19549cac80"><link href="css/main.css?0cc89747eb19549cac80" rel="stylesheet"></head>
+    <title data-tr="title">myCV</title>
+<link rel="icon" href="favicon.ico?84111f547382a2a51192"><link href="css/main.css?84111f547382a2a51192" rel="stylesheet"></head>
 
 <body>
     <!-- ======= Header ======= -->
@@ -45,6 +45,21 @@
                     </ul>
                 </li> -->
                 <li><a class="nav-link scrollto" href="#contact" data-tr="meniu.contact">Contact</a></li>
+
+                <li>
+                    <a data-id="en" href="index.html" onclick="window.changeLanguage('en')">
+                        <img style="max-height:15px"src="images/en.svg" alt="English" />
+                    </a>
+                </li>
+                <li><a data-id="ro" href="index.html" onclick="window.changeLanguage('ro')">
+                    <img style="max-height:15px"
+                            src="images/ro.svg" alt="Romana" /></a></li>
+
+                <li class="me-auto">
+                    <div class="dark-mode-toggle">
+                        <i id="darkModeIcon" class="bi bi-moon"></i>
+                    </div>
+                </li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -64,7 +79,7 @@
                     I am <span><strong>Raul</strong></span>
                 </h1>
                 <p class="hero-subtitle">
-                    <span class="typed" data-typed-items="Developer, Freelancer, Programmer"></span>
+                    <span id="typed" class="typed" data-attr-tr="typed" data-typed-items="Developer, Freelancer, Programmer"></span>
                 </p>
                 <ul class="list-inline list-social">
                     <!-- <li>
@@ -678,7 +693,7 @@
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">
-                          <textarea class="form-control" name="message"rows="5" placeholder="Message" required></textarea>
+                          <textarea class="form-control" name="message"rows="5" data-attr-tr="ct.message" placeholder="Message" required></textarea>
                           <div class="valid-feedback" data-tr="valid.text">The text is complete!</div>
                           <div class="invalid-feedback" data-tr="invalid.text">The text is not complete!</div>
                         </div>
@@ -805,6 +820,6 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a>
 
-<script defer src="js/main.bundle.js?0cc89747eb19549cac80"></script></body>
+<script defer src="js/main.bundle.js?84111f547382a2a51192"></script></body>
 
 </html>

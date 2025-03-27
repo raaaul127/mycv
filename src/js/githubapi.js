@@ -13,6 +13,7 @@ function getData(gitHubUser) {
 
         }).done(function (data) {
             if (data.length > 0) {
+                
                 resolve(data);
             }
             else {
