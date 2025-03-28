@@ -17,6 +17,7 @@ function buildJSON() {
     $("[data-attr-tr]").each(function () {
         const value = $(this)[0].attribs['data-typed-items'];
         const value2 = $(this)[0].attribs['placeholder'];
+        console.log(value2);
         if(value !==undefined){
             let key = $(this)[0].attribs['data-attr-tr'];
             wordsTr.push({

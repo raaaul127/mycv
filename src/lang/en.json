@@ -1,7 +1,7 @@
 {
     "title": "myCV",
     "meniu.home": "Home",
-    "meniu.about": "About me",
+    "meniu.about": "About",
     "meniu.cv": "Work",
     "meniu.portfolio": "Portofolio",
     "meniu.github": "GitHub",
@@ -58,5 +58,9 @@
     "text_contact": "\n                    I'm always excited to meet new people and explore new\n                    professional challenges. If you'd like to discuss how we can\n                    collaborate or need additional information, don't hesitate\n                    to send me a message. I'll get back to you as soon as\n                    possible!\n                  ",
     "footer_text": "© 2025 Copyright myCV. All Rights Reserved",
     "subtitle_footer": "\n\n\n                        Designed by Raul\n                    ",
-    "typed": "Developer, Freelancer, Programmer"
+    "typed": "Developer, Freelancer, Programmer",
+    "ct.place.name": "Your Name",
+    "ct.place.email": "Your Email",
+    "ct.place.subject": "Subject",
+    "ct.message": "Message"
 }
