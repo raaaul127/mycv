@@ -20332,7 +20332,7 @@ a:hover {
 }
 
 .service-box {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: -1px 20px 15px 7px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
@@ -20395,10 +20395,10 @@ a:hover {
 }
 .button:hover {
   text-decoration: none;
-  background-color: linear-gradient(to right top, #3596b5, #65a8c7, #8bbad9, #adcde9, #cde1f8);
+  background-color: linear-gradient(to right top, #faea0c, #f0e546, #f9ef66, #ffe187);
   color: #fff;
-  transform: scale(1.05) rotate(-1deg);
-  box-shadow: rgba(29, 16, 16, 0.35) 0 -25px 18px -14px inset, rgba(211, 221, 215, 0.25) 0 1px 2px, rgba(39, 36, 36, 0.25) 0 2px 4px, rgba(255, 255, 255, 0.25) 0 4px 8px, rgba(255, 255, 255, 0.25) 0 8px 16px, rgba(0, 0, 0, 0.25) 0 16px 32px;
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .button:focus {
   outline: 0;
@@ -20935,7 +20935,7 @@ a:hover {
   font-weight: 600;
   font-size: 3rem;
 }
-.hero .hero-title span {
+.hero .hero-title h1 span strong {
   color: #f5ca3d;
 }
 .hero .hero-subtitle {
@@ -21464,7 +21464,7 @@ a:hover {
   transition: 0.4s;
 }
 .php-email-form button[type=submit]:hover {
-  background: linear-gradient(to right top, #3596b5, #65a8c7, #8bbad9, #adcde9, #cde1f8);
+  background: linear-gradient(to right top, #faea0c, #f0e546, #f9ef66, #ffe187);
 }
 
 @media (min-width: 767px) {
@@ -22145,7 +22145,7 @@ footer .credits a {
   border-color: #f5ca3d;
 }
 .php-email-form button[type=submit] {
-  background: #FAED26;
+  background: #ffbd03;
   border: 0;
   padding: 10px 24px;
   color: #fff;

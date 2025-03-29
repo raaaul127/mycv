@@ -23,6 +23,8 @@ global.$ = global.jQuery = $;
 //     }
 // });
 
+
+
 var lang = {
     "html": "100%",
     "css": "90%",
