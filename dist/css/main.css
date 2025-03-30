@@ -21467,6 +21467,17 @@ a:hover {
   background: linear-gradient(to right top, #faea0c, #f0e546, #f9ef66, #ffe187);
 }
 
+#map-container iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  border: 0;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
 @media (min-width: 767px) {
   .contact-mf .box-pl2 {
     margin-top: 3rem;
