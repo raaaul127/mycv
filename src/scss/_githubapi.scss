@@ -3,7 +3,7 @@
 # Services
 --------------------------------------------------------------*/
 .service-box {
-    background-color: var(--background-color_1);
+    background-color: $color_5;
     padding: 2.5rem 1.3rem;
     border-radius: 1rem;
     margin-bottom: 3rem;
@@ -12,7 +12,7 @@
       .ico-circle {
         transition: all 500ms ease;
         color: var(--color_1);
-        background-color: var(--background-color_2);
+        background-color: $color_5;
         box-shadow: 0 0 0 10px #cde1f8;
       }
     }
