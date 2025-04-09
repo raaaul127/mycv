@@ -216,10 +216,10 @@
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(78, 78, 78, 0.9);
+  // background: rgba(78, 78, 78, 0.9);
   transition: 0.3s;
   z-index: 999;
-  height: fit-content;
+  height:auto;
   .mobile-nav-toggle {
     position: absolute;
     top: 15px;
