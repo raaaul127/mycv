@@ -20800,14 +20800,14 @@ a:hover {
 }
 .navbar-mobile {
   position: fixed;
-  overflow: hidden;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   transition: 0.3s;
   z-index: 999;
-  height: auto;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
@@ -20824,6 +20824,8 @@ a:hover {
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
+  height: -moz-fit-content;
+  height: fit-content;
   transition: 0.3s;
 }
 .navbar-mobile > ul > li {

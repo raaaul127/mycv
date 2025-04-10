@@ -211,7 +211,7 @@
 }
 .navbar-mobile {
   position: fixed;
-  overflow: hidden;
+  // overflow: hidden;
   top: 0;
   right: 0;
   left: 0;
@@ -219,7 +219,7 @@
   // background: rgba(78, 78, 78, 0.9);
   transition: 0.3s;
   z-index: 999;
-  height:auto;
+  height: fit-content;
   .mobile-nav-toggle {
     position: absolute;
     top: 15px;
@@ -236,6 +236,7 @@
     padding: 10px 0;
     background-color: $background-color_3;
     overflow-y: auto;
+    height: fit-content;
     transition: 0.3s;
   }
   > ul {
