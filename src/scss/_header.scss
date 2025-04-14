@@ -226,7 +226,7 @@
     right: 15px;
   }
 
-  ul {
+    ul {
     display: block;
     position: absolute;
     top: 55px;
@@ -238,6 +238,7 @@
     overflow-y: auto;
     transition: 0.3s;
   }
+
   > ul {
     > li {
       padding: 0;

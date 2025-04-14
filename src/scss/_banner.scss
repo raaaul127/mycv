@@ -12,6 +12,123 @@
   width: 100%;
   z-index: 990;
 }
+
+.mouse-wrap {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 10px;
+  z-index: 990;
+}
+
+.mouse-wrap:active,
+.mouse-wrap:active > .mouse-label,
+.mouse-wrap:focus,
+.mouse-wrap:focus > .mouse-label {
+  outline: none;
+}
+
+.mouse-wrap.mouse-with-slider {
+  bottom: -50px;
+}
+
+.mouse-wrap .mouse-label {
+  top: 0;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+.mouse-wrap.dark .mouse-label {
+  color: #000;
+}
+
+.mouse-wrap.dark .mouse {
+  border: 2px solid #000;
+}
+
+.mouse-wrap.dark .mouse .scroll {
+  background: #000;
+}
+
+.mouse-wrap .mouse {
+  position: absolute;
+  width: 22px;
+  height: 42px;
+  bottom: 30px;
+  display: block;
+  left: 50%;
+  margin-left: -12px;
+  border-radius: 15px;
+  border: 2px solid var(--btn-color);
+  -webkit-animation: intro 2s;
+  animation: intro 2s;
+}
+
+.mouse-wrap .mouse .scroll {
+  display: block;
+  width: 3px;
+  height: 3px;
+  margin: 6px auto;
+  border-radius: 4px;
+  background: #fff;
+  -webkit-animation: finger 2s infinite;
+  animation: finger 2s infinite;
+}
+
+@-webkit-keyframes intro {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes finger {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+@keyframes finger {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
 .hero {
   height: 100vh;
   position: relative;

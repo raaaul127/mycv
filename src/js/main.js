@@ -277,6 +277,53 @@ import GLightbox from 'glightbox';
             preloader.remove()
         });
     }
+        // Enable Dark Mode!
+        let toggleSwitch = document.getElementById('darkModeIcon');
+        let currentTheme = localStorage.getItem('theme');
+    
+        if (currentTheme && currentTheme === 'dark') {
+            document.documentElement.setAttribute('data-bs-theme', 'dark');
+            toggleSwitch.classList.add('bi-moon');
+            toggleSwitch.classList.remove('bi-sun');
+    
+        }
+        else {
+            document.documentElement.setAttribute('data-bs-theme', 'light');
+            toggleSwitch.classList.remove('bi-moon');
+            toggleSwitch.classList.add('bi-sun');
+            localStorage.setItem('theme', 'light');
+        }
+        function getParticlesColor2() {
+            const rootStyles = getComputedStyle(document.documentElement);
+            return rootStyles.getPropertyValue("--particle-color").trim();
+        }
+        function switchTheme(e) {
+            currentTheme = localStorage.getItem('theme');
+            this.classList.toggle('bi-moon');
+            this.classList.toggle('bi-sun');
+            if (currentTheme && currentTheme === 'dark') {
+                document.documentElement.setAttribute('data-bs-theme', 'light');
+                localStorage.setItem('theme', 'light');
+    
+            }
+            else {
+                document.documentElement.setAttribute('data-bs-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            }
+            //schimb culoarea in particles.js
+            setTimeout(() => {
+                const newColor = getParticlesColor2();
+    
+                // Dacă există o instanță anterioară, o distrugem
+                if (window.pJSDom && pJSDom.length > 0) {
+                    pJSDom[0].pJS.particles.color.value = newColor;
+                    pJSDom[0].pJS.fn.particlesRefresh();
+                }
+            }, 100); // Mic delay pentru a permite aplicarea noii culori din CSS
+        }
+        toggleSwitch.addEventListener('click', switchTheme, false);
+    
+    
 
     /**
      * Initiate Pure Counter 
