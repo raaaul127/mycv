@@ -11,7 +11,7 @@
     &:hover {
       .ico-circle {
         transition: all 500ms ease;
-        color: var(--color_1);
+        color: var(--color_2);
         background-color: $color_5;
         box-shadow: 0 0 0 10px #cde1f8;
       }
@@ -37,7 +37,7 @@
       padding: 0.4rem 0;
     }
     .s-description {
-      color: $vueColor;
+      color: var(--vueColor);
       overflow: hidden;
       text-overflow: ellipsis;
       display: -webkit-box;

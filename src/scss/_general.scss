@@ -78,7 +78,7 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
   --color_2: #1e1e1e;
   --color_3: #f5ca3d;
   --color_4: #f5f5f5;
-  --color_5: #fff;
+  --color_5: #353434;
   --color_6: #cde1f8;
   --background-color_1: #f5f5f5;
   --background-color_2: #90AFC5;
@@ -89,7 +89,8 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
   --background-color_7: rgba(0, 0, 0, 0.8);
   --background-color_8: transparent;
   --background-color_9: rgba(255, 255, 255, 0.4);
-  --background-color_10:rgb(55%, 93%, 93%);
+  --background-color_10: rgb(0,0,0,0);
+  --box-shadow: rgba(0,0,0,0.48);
   --font-family_1: "Roboto", Helvetica, Arial, sans-serif;
   --font-family_2: "Montserrat", sans-serif;
   --border-top-color_1: #eee;
@@ -115,7 +116,7 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
   --orange: #ffa500;
   --green: #03844a;
   --reactColor: rgb(20 158 202/0.7);
-  --vueColor: #42b883;
+  --vueColor: #FCBD34;
   --angularColor: #f9174d;
 }
 
@@ -127,9 +128,9 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
   --color_1: #4e4e4e;
   --color_2: #1e1e1e;
   --color_3: #29a19c;
-  --color_4: #f5f5f5;
+  --color_4: #353434;
   --color_5: #fff;
-  --color_6: #cde1f8;
+  --color_6: #fff;
   --background-color_1: #27323a;
   --background-color_2: #cc005f;
   --background-color_3: #ffffff;
@@ -139,12 +140,13 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
   --background-color_7: rgba(0, 0, 0, 0.8);
   --background-color_8: transparent;
   --background-color_9: rgba(255, 255, 255, 0.4);
+  --box-shadow: rgba(255, 255, 255, 0.48);
   --font-family_1: "Roboto", Helvetica, Arial, sans-serif;
   --font-family_2: "Montserrat", sans-serif;
   --border-top-color_1: #eee;
   --btn-color: #04b962;
   --btn-color-2: #479fc8;
-  --text-color: #434343;
+  --text-color: #fff;
   --text-color-secondary: #666;
   --grey: #999;
   --divider: #e8e8e8;
@@ -164,7 +166,7 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
   --orange: #ffa500;
   --green: #03844a;
   --reactColor: rgb(20 158 202/0.7);
-  --vueColor: #42b883;
+  --vueColor: #666;
   --angularColor: #f9174d;
 }
 
@@ -186,13 +188,13 @@ h2 {
   color: $color_2;
 }
 h3 {
-  color: $color_2;
+  color: var(--color_5);
 }
 h4 {
   color: $color_2;
 }
 h5 {
-  color: $color_2;
+  color: var(--color_5);
 }
 h6 {
   color: $color_2;
@@ -458,9 +460,9 @@ a {
   border-radius: 50px;
   z-index: 2;
   // box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 10px 9px 30px -1px rgba(0,0,0,0.48);
--webkit-box-shadow: 10px 9px 30px -1px rgba(0,0,0,0.48);
--moz-box-shadow: 10px 9px 30px -1px rgba(0,0,0,0.48);
+  box-shadow: 10px 9px 30px -1px var(--box-shadow);
+  -webkit-box-shadow: 10px 9px 30px -1px var(--box-shadow);
+  -moz-box-shadow: 10px 9px 30px -1px var(--box-shadow);
 }
 .dark-mode-toggle {
   color: var(--color_4);
