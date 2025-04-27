@@ -16,7 +16,8 @@
     .about-img {
       margin-bottom: 2rem;
       img {
-        margin-left: 10px;
+        margin-left: 3rem;
+        width: 70%;
       }
     }
   }
@@ -141,11 +142,11 @@
       }
     }
     
-    .progressred{background-color:$red;}
-    .progressblue{background-color:$blue;}
-    .progresspurple{background-color:$purple;}
-    .progressorange{background-color:$orange;}
-    .progressgreen{background-color:$green;}
+    .progressred{background-color: var(--red);}
+    .progressblue{background-color: var(--blue);}
+    .progresspurple{background-color: var(--purple);}
+    .progressorange{background-color: var(--orange);}
+    .progressgreen{background-color: var(--green);}
     
     @-webkit-keyframes progress-html{0%{width: 0%;} 100%{ width: 100%;}}
     @-webkit-keyframes progress-css{0%{width: 0%;} 100%{ width: 90%;}}

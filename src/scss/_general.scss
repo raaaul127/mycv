@@ -70,33 +70,37 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
 ///////// --- Import color for dark mode --- /////////
 
 :root {
-  --particle-color: #3ec18f;
+  --particle-color: #fff;
   --border-color_1: #cde1f8;
   --border-color_2: #90AFC5;
   --color: #888888;
+  --color_0: #fff;
   --color_1: #4e4e4e;
   --color_2: #1e1e1e;
-  --color_3: #f5ca3d;
+  --color_3: #4e4e4e;
   --color_4: #f5f5f5;
   --color_5: #353434;
-  --color_6: #cde1f8;
+  --color_6: #000;
+  --color_7: #2A3132;
   --background-color_1: #f5f5f5;
-  --background-color_2: #90AFC5;
+  --background-color_2: rgba(0, 0, 0, 0.1);
   --background-color_3: #fff;
   --background-color_4: #cde1f8;
   --background-color_5: #1b1b1b;
-  --background-color_6: #0062d3;
+  --background-color_6: rgba(0, 0, 0, 0.1);
   --background-color_7: rgba(0, 0, 0, 0.8);
   --background-color_8: transparent;
   --background-color_9: rgba(255, 255, 255, 0.4);
-  --background-color_10: rgb(0,0,0,0);
+  --background-color_10: #fff;
   --box-shadow: rgba(0,0,0,0.48);
   --font-family_1: "Roboto", Helvetica, Arial, sans-serif;
   --font-family_2: "Montserrat", sans-serif;
   --border-top-color_1: #eee;
   --btn-color: #3ec18f;
   --btn-color-2: #479fc8;
+  --back_to_top: #000;
   --text-color: #434343;
+  --text-color_1: #434343;
   --text-color-secondary: #666;
   --grey: #999;
   --divider: #e8e8e8;
@@ -110,43 +114,47 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
   --dm-text-color: rgba(256, 256, 256, 0.9);
   --dm-text-color-secondary: rgba(256, 256, 256, 0.7);
   --li-padding: 5px;
-  --red: #c0392b;
-  --blue: #075997;
-  --purple: #9b59b6;
-  --orange: #ffa500;
-  --green: #03844a;
-  --reactColor: rgb(20 158 202/0.7);
+  --red: #EC6231;
+  --blue: #264de4;
+  --purple: #F0DB4F;
+  --orange: #3C873A;
+  --green: #1C78C0;
+  --reactColor: #fff;
   --vueColor: #FCBD34;
-  --angularColor: #f9174d;
+  --angularColor: #FCBD34;
 }
 
 [data-bs-theme="dark"] {
-  --particle-color: #cc005f;
+  --particle-color: #FCBD34;
   --border-color_1: rgba(255, 255, 255, 0.3);
   --border-color_2: #cc005f;
   --color: #888888;
-  --color_1: #4e4e4e;
+  --color_1: #fff;
   --color_2: #1e1e1e;
-  --color_3: #29a19c;
+  --color_3: #8b8b8b;
   --color_4: #353434;
-  --color_5: #fff;
-  --color_6: #fff;
+  --color_5: var(--color_0);
+  --color_6: #8b8b8b;
+  --color_7: var(--color_0);
   --background-color_1: #27323a;
-  --background-color_2: #cc005f;
+  --background-color_2: #f5f5f594;
   --background-color_3: #ffffff;
   --background-color_4: #cde1f8;
   --background-color_5: #121212;
-  --background-color_6: #0062d3;
+  --background-color_6: rgba(252, 189, 52, 0.48);
   --background-color_7: rgba(0, 0, 0, 0.8);
   --background-color_8: transparent;
   --background-color_9: rgba(255, 255, 255, 0.4);
+  --background-color_10: rgb(0,0,0,0);;
   --box-shadow: rgba(255, 255, 255, 0.48);
   --font-family_1: "Roboto", Helvetica, Arial, sans-serif;
   --font-family_2: "Montserrat", sans-serif;
   --border-top-color_1: #eee;
   --btn-color: #04b962;
   --btn-color-2: #479fc8;
+  --back_to_top: #FCBD34;
   --text-color: #fff;
+  --text-color_1: #bd8d26;
   --text-color-secondary: #666;
   --grey: #999;
   --divider: #e8e8e8;
@@ -160,14 +168,14 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
   --dm-text-color: rgba(256, 256, 256, 0.9);
   --dm-text-color-secondary: rgba(256, 256, 256, 0.7);
   --li-padding: 5px;
-  --red: #c0392b;
-  --blue: #075997;
-  --purple: #9b59b6;
-  --orange: #ffa500;
-  --green: #03844a;
-  --reactColor: rgb(20 158 202/0.7);
+  --red: #fcbd35;
+  --blue: #fec450;
+  --purple: #ffcb68;
+  --orange: #ffda94;
+  --green: #ffd37e;
+  --reactColor: #fff;
   --vueColor: #666;
-  --angularColor: #f9174d;
+  --angularColor: #FCBD34;
 }
 
 //*************************** Theme Styles ****************************/
@@ -179,19 +187,19 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
 
 body {
   background-color: $background-color_1;
-  color: $color_1;
+  // color: var(--color_1);
 }
 h1 {
   color: $color_2;
 }
 h2 {
-  color: $color_2;
+  color: var(--color_5);
 }
 h3 {
   color: var(--color_5);
 }
 h4 {
-  color: $color_2;
+  color: var(--color_6);
 }
 h5 {
   color: var(--color_5);
@@ -272,7 +280,7 @@ a {
   }
 }
 .work-box {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: -3px 12px 20px 0px var(--background-color_6);
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -284,7 +292,7 @@ a {
   }
 }
 .service-box {
-  box-shadow: -1px 20px 15px 7px rgba(0, 0, 0, 0.1);;
+  box-shadow: 0px 8px 15px 7px var(--background-color_6);
   background-color: $background-color_3;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
@@ -297,6 +305,9 @@ a {
       background-color: $background-color_2;
       box-shadow: 0 0 0 10px #cde1f8;
     }
+  }
+  .service-content > span{
+    color: var(--text-color_1);
   }
   .service-ico {
     margin-bottom: 1rem;
@@ -404,6 +415,7 @@ a {
 }
 .sect-pt4 {
   padding-top: 4rem;
+  background: var(--color_4);
 }
 // .sect-mt4 {
 //   // margin-top: 4rem;
@@ -411,8 +423,11 @@ a {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: $color_2;
+  color: var(--color_6);
   font-size: 1.1rem;
+}
+.title-s > span{
+  color: var(--color_1); 
 }
 .title-box {
   margin-bottom: 4rem;
@@ -430,7 +445,7 @@ a {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: $background-color_2;
+  background-color: #FCBD34;
   margin: 0 auto;
 }
 .title-box-2 {
@@ -443,7 +458,7 @@ a {
     content: "";
     position: absolute;
     height: 3px;
-    background-color: $background-color_2;
+    background-color: $vueColor;
     width: 100px;
     bottom: -12px;
   }
@@ -475,6 +490,6 @@ a {
     color: var(--reactColor);
   }
   .bi-sun {
-    color: var(--orange);
+    color: var(--angularColor);
   }
 }

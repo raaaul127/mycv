@@ -127,7 +127,7 @@
   margin-bottom: 0;
   line-height: 2;
   span {
-    color: #0ba3d4;
+    color: #FCBD34;
     margin-right: 10px;
   }
 }
@@ -248,8 +248,9 @@
 }
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  background: var(--color_4);
   .w-more {
-    color: $color_1;
+    color: var(--color_3);
     font-size: 0.8rem;
     .w-ctegory {
       color: $color_1;
@@ -437,7 +438,8 @@
     border: 0;
     padding: 10px 24px;
     color: $color_5;
-    transition: 0.4s;
+    transition: 1s;
+    width: 80%;
     &:hover,
     &:focus,
     &:active {

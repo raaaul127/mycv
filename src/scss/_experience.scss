@@ -4,6 +4,12 @@
  * ------------------------------------------------------------------- 
  */
  #resume {
+    .box-shadow-full{
+      background: var(--background-color_10);
+      p{
+        color: var(--text-color);
+      }
+    }
     .resume-header {
       text-align: center;
       h2 {
