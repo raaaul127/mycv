@@ -20226,7 +20226,7 @@ textarea.form-control-lg {
   --background-color_1: #f5f5f5;
   --background-color_2: rgba(0, 0, 0, 0.1);
   --background-color_3: #fff;
-  --background-color_4: #cde1f8;
+  --background-color_4: #fff;
   --background-color_5: #1b1b1b;
   --background-color_6: rgba(0, 0, 0, 0.1);
   --background-color_7: rgba(0, 0, 0, 0.8);
@@ -20280,7 +20280,7 @@ textarea.form-control-lg {
   --background-color_1: #27323a;
   --background-color_2: #f5f5f594;
   --background-color_3: #ffffff;
-  --background-color_4: #cde1f8;
+  --background-color_4: #272727;
   --background-color_5: #121212;
   --background-color_6: rgba(252, 189, 52, 0.48);
   --background-color_7: rgba(0, 0, 0, 0.8);
@@ -20441,7 +20441,7 @@ a:hover {
 
 .service-box {
   box-shadow: 0px 8px 15px 7px var(--background-color_6);
-  background-color: #fff;
+  background-color: var(--background-color_4);
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -20475,6 +20475,12 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   padding: 0.4rem 0;
+}
+.service-box .s-title a {
+  color: var(--color_5);
+}
+.service-box .s-title a:hover {
+  color: var(--color);
 }
 .service-box .s-description {
   color: #4e4e4e;
@@ -21562,7 +21568,7 @@ a:hover {
 # Services
 --------------------------------------------------------------*/
 .service-box {
-  background-color: #fff;
+  background-color: var(--background-color_4);
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
@@ -21956,7 +21962,6 @@ footer .credits a {
   --background-color_1: #ffffff;
   --background-color_2: var(--color_4);
   --background-color_3: var(--color_2);
-  --background-color_4: #0062d3;
   --background-color_5: transparent;
   --border-color_1: var(--color_1);
   --border-color_2: var(--color_4);
@@ -21968,7 +21973,6 @@ footer .credits a {
   --color_4: #1a1a1a;
   --background-color_1: #17191c;
   --background-color_2: var(--color_2);
-  --background-color_4: #0062d3;
   --background-color_5: transparent;
   --border-color_1: var(--color_1);
   --border-color_2: var(--color_4);
@@ -21980,7 +21984,6 @@ footer .credits a {
   --color_4: #f5f5f5;
   --background-color_1: #17191c;
   --background-color_2: var(--color_3);
-  --background-color_4: #0062d3;
   --background-color_5: transparent;
   --border-color_1: var(--color_1);
   --border-color_2: var(--color_4);

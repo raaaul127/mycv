@@ -39,7 +39,7 @@ function showData(repos) {
                 <div class="service-box">
                     <div class="service-ico">
                         <a href='${item.html_url}' target='_blank'>
-                            <img style="max-width:-webkit-fill-available; max-height:-webkit-fill-available;" src="https://raw.githubusercontent.com/${item.owner.login}/${item.name}/${item.default_branch}/banner.webp">
+                            <img style="max-width:-webkit-fill-available; max-height:-webkit-fill-available;" src="https://raw.githubusercontent.com/${item.owner.login}/${item.name}/${item.default_branch}/banner.png">
                         </a>
                     </div>
                     <div class="service-content">
