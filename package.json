@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "buildJSON": "node buildJSON"
   },
+  "homepage": "https://raulmilea.github.io",
   "keywords": [],
   "author": "",
   "license": "ISC",
